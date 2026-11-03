@@ -31,7 +31,7 @@ it and follow the steps. The case stays closed and your patterns are kept.
 
 | Folder | Board | Contents |
 |---|---|---|
-| [`v1-teensy/`](v1-teensy/) | Step Mother 1, Teensy 4.1 | [PCB](v1-teensy/pcb/README.md): EasyEDA Pro project (also imports into KiCad 8+), Gerbers, BOM and pick-and-place for JLCPCB, schematic and assembly PDFs. [Enclosure](v1-teensy/enclosure/README.md): STL and STEP files to print, the FreeCAD source, and the mechanical interface for designing your own case. |
+| [`v1-teensy/`](v1-teensy/) | Step Mother 1, Teensy 4.1 | [PCB](v1-teensy/pcb/README.md): EasyEDA Pro project (also imports into KiCad 8+), Gerbers, BOM and pick-and-place for JLCPCB, schematic and assembly PDFs, 3D model of the assembled board. [Enclosure](v1-teensy/enclosure/README.md): STL and STEP files to print, the FreeCAD source, and the mechanical interface for designing your own case. |
 
 | | Step Mother 1 |
 |---|---|
