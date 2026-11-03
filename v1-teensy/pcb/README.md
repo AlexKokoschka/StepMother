@@ -31,7 +31,7 @@ Files exported 1 November 2026 from EasyEDA Pro. The design check (DRC) passed w
 |---|---|
 | `StepMother1_Schematic_2026-11-01.pdf` | Full schematic. |
 | `StepMother1_PCB_Assembly_2026-11-01.pdf` | Placement and assembly drawings (top/bottom), BOM page and drill drawing. |
-| `StepMother1_3D_2026-11-01.step` | 3D model of the assembled board, for designing or checking an enclosure (30 MB, so not kept in this folder: download it from the [StepDaddy 1.0.0 release](https://github.com/AlexKokoschka/StepDaddy/releases/tag/v1.0.0)). |
+| `StepMother1_3D_2026-11-01.step` | 3D model of the assembled board, for designing or checking an enclosure (30 MB). |
 
 ## Board specification
 
