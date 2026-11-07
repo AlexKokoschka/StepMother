@@ -22,6 +22,7 @@ Assembled Step Mothers are handmade in small batches in Lausanne, Switzerland:
 
 - [General introduction](https://youtu.be/5FidxB0JIPQ)
 - [Beat programming (StepBro)](https://youtu.be/w0sGw5nPOf4)
+- [Synth programming (Yummy Gummy)](https://youtu.be/CbF5JtVqbY4)
 
 ## Updating the firmware
 
