@@ -13,6 +13,16 @@ This repository holds the **hardware**: the PCB and the enclosure. The firmware,
 the updater, the user manuals and the developer guide are in the
 **[StepDaddy](https://github.com/AlexKokoschka/StepDaddy)** repository.
 
+## Where to buy
+
+Assembled Step Mothers are handmade in small batches in Lausanne, Switzerland:
+**[Step Mother on Ko-fi](https://ko-fi.com/s/28225d3770)**.
+
+## Video tutorials
+
+- [General introduction](https://youtu.be/5FidxB0JIPQ)
+- [Beat programming (StepBro)](https://youtu.be/w0sGw5nPOf4)
+
 ## Updating the firmware
 
 Download **StepDaddy** for macOS or Windows from the
