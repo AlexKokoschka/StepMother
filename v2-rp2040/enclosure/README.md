@@ -30,19 +30,23 @@ The switch openings are sized 16.80 mm against the switches' 16.00 mm collar (+0
 side). Read `design-your-own/MECHANICAL_INTERFACE.md` before changing any opening or the top face:
 the top face must stay below 6.00 mm above the PCB, or the keys bottom out before they actuate.
 
-Ask for **no threads** if your print service offers tapping: the four screw posts are pilot
-holes that the screws thread themselves.
+The four screw posts have a plain Ø4.7 mm x 4.3 mm blind hole with a 0.3 mm lead-in chamfer,
+for a brass insert. Do not ask your print service to tap them.
 
 ## Parts you need besides the case
 
 | Part | Qty | Notes |
 |---|---|---|
-| M3 x 14 mm countersunk self-tapping screw | 4 | Wheelspin Models MV22053 or equivalent |
+| Brass threaded insert, M3 x 0.5, 4.0 mm long, 4.6 mm outer diameter (knurled, slightly tapered) | 4 | Ruthex M3 short, RX-M3S x 4.0 (Galaxus item 42703715, bag of 100). Galaxus lists the outer diameter as 3 mm, but that is the thread size; the real outer diameter is 4.6 mm. |
+| M3 x 12 mm countersunk screw, hex socket (DIN 7991 / ISO 10642), A2 stainless | 4 | Epower M3 x 12 (Galaxus item 8599195, pack of 10). 12 mm includes the head; 2 mm hex key. |
+| Two-part epoxy | | To fix the inserts in the posts (see Assembly). |
 | XDA profile 1U keycap, MX | 23 | 16 transparent, 7 can be solid (see below) |
 | Knob for 6 mm D-shaft | 1 | |
 
-Do not use heat-set inserts: there is only 4.3 mm of depth between the post and the top face,
-and a standard M3 insert wants about 6 mm. The case is designed to be closed once.
+The inserts are sold as heat-set inserts, but in a resin shell they are **epoxied in** rather
+than melted in. The posts leave only 4.3 mm of depth between the hole and the top face, which is
+why the short (4.0 mm) insert is used; a standard M3 insert is about 6 mm. The screws are
+designed to be driven once the epoxy has cured, and the case is designed to be closed once.
 
 ### Which keycaps need to be transparent
 
@@ -58,9 +62,14 @@ There are no LED apertures in the top face: the LEDs light the keys **through** 
 1. Lower the shell straight down over the populated board. It clears every component on a
    vertical path, so no tilting is needed.
 2. Fit the pot's M9 nut from above, through the knob island.
-3. Seat the bottom plate into the rebate. It recesses 0.3 mm so it cannot rock.
-4. Drive the four screws from underneath. They form their own thread in the shell's posts.
-5. Press on the keycaps and the knob.
+3. Epoxy the four brass inserts into the posts (narrow end first, flush with the bottom of
+   the post), and let the epoxy cure before going on. Keep epoxy out of the thread.
+4. Seat the bottom plate into the rebate. It recesses 0.3 mm so it cannot rock.
+5. Drive the four screws from underneath into the inserts. The bottom plate has Ø3.4 mm
+   clearance holes with a Ø6.5 mm, 90 degree countersink; a screw head sits about 0.25 mm below
+   the plate surface. Each screw engages about 2.2-2.4 mm of insert thread and leaves about
+   1.8 mm of free hole above its tip.
+6. Press on the keycaps and the knob.
 
 ## Known tight dimensions
 
@@ -68,7 +77,8 @@ These are fine but have little margin. If you modify anything, re-check them.
 
 - **Keycap clearance 1.00 mm.** The top face's outer surface sits 5.00 mm above the PCB and a
   fitted keycap bottoms out at 6.00 mm. This is the binding constraint of the whole design.
-- **Screw tip to pilot bottom: 0.09 mm.** The pilot depth has no margin to give up.
+- **Screw length.** About 1.8 mm of free hole remains above the screw tip. Do not use a longer
+  screw than 12 mm.
 - **Switch opening clearance: 0.40 mm** on the narrow axis.
 - **USB-C: 0.47 mm** above the connector, 0.32 mm below.
 
