@@ -13,6 +13,10 @@ This repository holds the **hardware**: the PCB and the enclosure. The firmware,
 the updater, the user manuals and the developer guide are in the
 **[StepDaddy](https://github.com/AlexKokoschka/StepDaddy)** repository.
 
+Looking for the pocket-sized version? The **Step Sister** hardware (same panel
+and firmware on a smaller board) is in the
+**[StepSister](https://github.com/AlexKokoschka/StepSister)** repository.
+
 ## Why a second board: the Step Mother 2
 
 The Step Mother 2 swaps the Teensy 4.1 for an RP2040 on the same panel and the
